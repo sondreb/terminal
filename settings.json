@@ -50,20 +50,18 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{ec552013-cd6a-4427-aecb-4acaa747a8ab}",
-    // Launch terminal with multiple tabs
-    // "startupActions": "new-tab; new-tab",
-    //Launch terminal with one tab split into a PowerShell pane and an Ubuntu pane
-    // "startupActions": "split-pane -p Blockcore \"City Chain\" ; split-pane -p \"City Chain\" ; focus-tab -t 1",
-    // "startupActions": "split-pane -p Blockcore; split-pane -p \"City Chain\"; split-pane -p \"Ubuntu-20.04\"; focus-tab -t 1",
     "startupActions": "split-pane -p \"City Chain\"; split-pane -p \"Ubuntu-20.04\"; focus-tab -t 1",
+    "initialCols": 180,
+    "initialRows": 50,
     "profiles": 
     {
         "defaults": 
         {
+            "acrylicOpacity": 0.5,
             "backgroundImage": "C:\\src\\github\\sondreb\\terminal\\wallpapers\\owl.jpg",
-            "acrylicOpacity": 0.25,
-            "backgroundImageOpacity": 0.5,
+            "backgroundImageOpacity": 0.75,
             "backgroundImageStretchMode": "uniformToFill",
+            "scrollbarState": "hidden",
             "useAcrylic": true
         },
         "list": 
@@ -71,19 +69,19 @@
             {
                 "commandline": "cmd.exe",
                 "guid": "{ec552013-cd6a-4427-aecb-4acaa747a8ab}",
-                "startingDirectory": "C:\\src\\github\\blockcore",
+                "hidden": false,
                 "icon": "C:\\src\\github\\sondreb\\terminal\\icons\\blockcore-16x16.png",
                 "name": "Blockcore",
-                "hidden": false
+                "startingDirectory": "C:\\src\\github\\blockcore"
             },
             {
-                "guid": "{1f1f5784-961a-484e-9fec-6775a8af2f3c}",
-                "name": "City Chain",
+                "backgroundImage": "C:\\src\\github\\sondreb\\terminal\\wallpapers\\city.jpg",
                 "commandline": "cmd.exe",
-                "startingDirectory": "C:\\src\\github\\citychain",
+                "guid": "{1f1f5784-961a-484e-9fec-6775a8af2f3c}",
                 "hidden": false,
                 "icon": "C:\\src\\github\\sondreb\\terminal\\icons\\city-16x16.png",
-                "backgroundImage": "C:\\src\\github\\sondreb\\terminal\\wallpapers\\city.jpg",
+                "name": "City Chain",
+                "startingDirectory": "C:\\src\\github\\citychain"
             },
             {
                 "commandline": "powershell.exe",
