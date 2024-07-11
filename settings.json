@@ -16,10 +16,6 @@
             "keys": "ctrl+v"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -27,13 +23,21 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{ec552013-cd6a-4427-aecb-4acaa747a8ab}",
-    "initialCols": 180,
-    "initialRows": 50,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -82,12 +86,6 @@
                 "name": "City Chain",
                 "startingDirectory": "C:\\src\\github\\citychain"
             },
-            {
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl"
-            }
         ]
     },
     "schemes": 
@@ -180,7 +178,7 @@
             "name": "One Half Light",
             "purple": "#A626A4",
             "red": "#E45649",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#4F525D",
             "white": "#FAFAFA",
             "yellow": "#C18301"
         },
@@ -226,7 +224,7 @@
             "name": "Solarized Light",
             "purple": "#D33682",
             "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#073642",
             "white": "#EEE8D5",
             "yellow": "#B58900"
         },
@@ -272,7 +270,7 @@
             "name": "Tango Light",
             "purple": "#75507B",
             "red": "#CC0000",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#555753",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
         },
@@ -300,5 +298,6 @@
             "yellow": "#808000"
         }
     ],
+    "themes": [],
     "useAcrylicInTabRow": true
 }
